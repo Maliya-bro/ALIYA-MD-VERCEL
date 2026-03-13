@@ -1,0 +1,19 @@
+{
+  "name": "maliya-md-vercel-pair",
+  "version": "1.0.0",
+  "description": "Vercel-friendly WhatsApp pair code generator",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "awesome-phonenumber": "7.2.0",
+    "pino": "9.5.0"
+  }
+}
